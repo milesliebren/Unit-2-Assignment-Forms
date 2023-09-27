@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>
+            Unit 2 Assignment - Forms
+        </title>
+        <link rel = "stylesheet" href = "Style.css">
+    </head>
+    <body>
+        <h2>Unit 2 Assignment - Forms</h2>
+        <h1>Season Tickets Application</h1>
+        <h2 class = "name">By: Miles Liebren</h2>
+        <form>
+            <div>
+                <h3>Basic Information: </h3>
+                <label for = "fnameInput">First Name: </label><input id="fnameInput" type="text"></input> <br>
+                <label for = "lnameInput">Last Name: </label><input id = "lnameInput" type="text"></input> <br>
+                <label for = "pNumInput">Phone Number: </label><input id="pNumInput" type="text"></input> <br>
+            </div>
+            <div>
+                <h3>Compliance Questions: </h3>
+                <input type="checkbox" id = "cboxOver21" value = "over21"><label for = "cboxOver21">Are you over 21? </label><br>
+                <input type="checkbox" id = "cboxPrevious" value = "previous"><label for = "cboxPrevious">Are you a previous season ticket holder? </label><br>
+            </div>
+            <div>
+                <h3>Preferences: </h3>
+                <p>Select desired seating level:</p>
+                    <input type = "radio" id = "locationRadio1" value = "loc">Upper Level<br>
+                    <input type = "radio" id = "locationRadio2" value = "loc">Lower Level<br>
+                    
+                    <p>Select T-Shirt Size:</p>
+                    <select>
+                        <option value = "default">Select Size</option>
+                        <option value = "1">XL</option>
+                        <option value = "2">L</option>
+                        <option value = "3">M</option>
+                        <option value = "4">S</option>
+                        <option value = "5">XS</option>
+                    </select>
+            </div>
+            
+                
+            
+            <div>
+                <p>Why should we select you?</p>
+                <textarea id = "notesTextArea"></textarea><br>
+            </div>
+            
+
+            <button class="submit">Submit</button>
+
+        </form>
+        <br>
+        <a href = "Unit1Roster.html" target = "_blank">Team Roster</a>
+        <br>
+        <a href = "Unit1AboutUs.html" target = "_blank">About the Staff</a>
+        <br>
+        <a href = "Unit1AssignmentMainPage.html" target="_blank">Main Page</a>
+    </body>
+</html>

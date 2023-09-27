@@ -1,0 +1,80 @@
+body
+{
+    background-color: rgb(189, 189, 189);
+    border: 2px solid black;
+    padding: 20px;
+    margin: 30px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    table-layout: auto;
+    
+    /* Font 1 = first, font2 = they don't have that font on their computer, font3... */
+}
+h1
+{
+    color: red;
+    font: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2
+{
+    color:black;
+    font:x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+p
+{
+    font-style: italic;
+}
+img
+{
+    border: solid black 1px;
+}
+ul
+{
+    text-align: left;
+}
+table
+{
+    text-align: left;
+    border: 1px black solid;
+    margin-left: 33%;
+}
+th
+{
+    border: dotted black 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+td
+{
+    padding-right: 10px;
+}
+#titleAboutTheStaff
+{
+    color: darkcyan;
+}
+tr.altRow
+{
+    color: black;
+    background-color:grey;
+}
+h2.name
+{
+    color:black;
+    font:medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+form
+{
+    text-align: left;
+    background-image: url("https://seeklogo.com/images/C/central-washington-wildcats-logo-A2CC544276-seeklogo.com.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+div
+{
+    margin-top: 2px;
+    border: dotted black 1px;
+}
